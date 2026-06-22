@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.24" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="NEST" Version="7.10.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SearchLego.DataSeeder.Azure\SearchLego.DataSeeder.AzureVault.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.CloudStorage\SearchLego.DataSeeder.CloudStorage.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.Common\SearchLego.DataSeeder.Common.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.FileConvert\SearchLego.DataSeeder.FileConvert.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.Host\SearchLego.DataSeeder.Host.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.MongoDB\SearchLego.DataSeeder.MongoDB.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.NER\SearchLego.DataSeeder.NER.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.StorageService\SearchLego.DataSeeder.StorageService.csproj" />
+  </ItemGroup>
+
+</Project>
