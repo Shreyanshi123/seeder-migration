@@ -1,0 +1,13 @@
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\bin\Debug\net10.0\SearchLego.DataSeeder.Entities.deps.json
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\bin\Debug\net10.0\SearchLego.DataSeeder.Entities.dll
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\bin\Debug\net10.0\SearchLego.DataSeeder.Entities.pdb
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\SearchLego.DataSeeder.Entities.csproj.AssemblyReference.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\SearchLego.DataSeeder.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\SearchLego.DataSeeder.Entities.AssemblyInfoInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\SearchLego.DataSeeder.Entities.AssemblyInfo.cs
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\SearchLego.DataSeeder.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\SearchLego.DataSeeder.Entities.sourcelink.json
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\SearchLego.DataSeeder.Entities.dll
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\refint\SearchLego.DataSeeder.Entities.dll
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\SearchLego.DataSeeder.Entities.pdb
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Entities\obj\Debug\net10.0\ref\SearchLego.DataSeeder.Entities.dll
