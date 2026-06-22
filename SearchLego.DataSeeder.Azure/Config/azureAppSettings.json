@@ -1,0 +1,10 @@
+﻿{
+  "AppSettings": {
+    "ConnectionString": {
+      "ClientId": "95c8b6a9-618d-428c-bf8c-dd61ede7635d",
+      "TenantId": "0483ae51-a627-466e-a7dd-de2ac7e1238e",
+      "ClientSecret": "z~-8Q~LeLcPDP.VZNmqHrq~yp.RcuqzK6_743bWt",
+      "KeyVaultName": "CBIFSlegoVaulteus"
+    }
+  }
+}

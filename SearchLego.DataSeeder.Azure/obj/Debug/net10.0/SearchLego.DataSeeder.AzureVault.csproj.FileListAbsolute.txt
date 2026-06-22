@@ -1,0 +1,6 @@
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Azure\obj\Debug\net10.0\SearchLego.DataSeeder.AzureVault.csproj.AssemblyReference.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Azure\obj\Debug\net10.0\SearchLego.DataSeeder.AzureVault.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Azure\obj\Debug\net10.0\SearchLego.DataSeeder.AzureVault.AssemblyInfoInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Azure\obj\Debug\net10.0\SearchLego.DataSeeder.AzureVault.AssemblyInfo.cs
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Azure\obj\Debug\net10.0\SearchLego.DataSeeder.AzureVault.csproj.CoreCompileInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Azure\obj\Debug\net10.0\SearchLego.DataSeeder.AzureVault.sourcelink.json
