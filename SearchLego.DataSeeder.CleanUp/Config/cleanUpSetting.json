@@ -1,0 +1,7 @@
+{
+  "AppSettings": {
+    "MongoConnectionString": "mongodb://localhost:27017/doc_d",
+    "TempPath": "F:\\www\\fileupload\\api\\temp",
+    "TempDownloadPath": "F:\\www\\fileupload\\api\\tempDownload"
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\bin\Debug\net10.0\Config\cleanUpSetting.json
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\bin\Debug\net10.0\SearchLego.DataSeeder.CleanUp.deps.json
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\bin\Debug\net10.0\SearchLego.DataSeeder.CleanUp.dll
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\bin\Debug\net10.0\SearchLego.DataSeeder.CleanUp.pdb
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\SearchLego.DataSeeder.CleanUp.csproj.AssemblyReference.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\SearchLego.DataSeeder.CleanUp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\SearchLego.DataSeeder.CleanUp.AssemblyInfoInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\SearchLego.DataSeeder.CleanUp.AssemblyInfo.cs
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\SearchLego.DataSeeder.CleanUp.csproj.CoreCompileInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\SearchLego.DataSeeder.CleanUp.sourcelink.json
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\SearchLego.DataSeeder.CleanUp.dll
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\refint\SearchLego.DataSeeder.CleanUp.dll
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\SearchLego.DataSeeder.CleanUp.pdb
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CleanUp\obj\Debug\net10.0\ref\SearchLego.DataSeeder.CleanUp.dll
