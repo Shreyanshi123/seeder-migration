@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SearchLego.DataSeeder.Common\SearchLego.DataSeeder.Common.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.Host\SearchLego.DataSeeder.Host.csproj" />
+  </ItemGroup>
+
+</Project>

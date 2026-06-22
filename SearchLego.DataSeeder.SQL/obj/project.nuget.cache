@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "dgSpecHash": "+/Og2aRkhMA=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\microsoft.win32.registry\\4.6.0\\microsoft.win32.registry.4.6.0.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.6.0\\runtime.native.system.data.sqlclient.sni.4.6.0.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\system.data.sqlclient\\4.7.0\\system.data.sqlclient.4.7.0.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\system.security.accesscontrol\\4.6.0\\system.security.accesscontrol.4.6.0.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\system.security.principal.windows\\4.6.0\\system.security.principal.windows.4.6.0.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 12.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'System.Data.SqlClient' 4.7.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g2p-5pqh-5jmc",
+      "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Data.SqlClient' 4.7.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SearchLego.DataSeeder.Common is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project SearchLego.DataSeeder.Common supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "filePath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "libraryId": "SearchLego.DataSeeder.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SearchLego.DataSeeder.Host is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project SearchLego.DataSeeder.Host supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "filePath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.SQL\\SearchLego.DataSeeder.SQL.csproj",
+      "libraryId": "SearchLego.DataSeeder.Host",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
