@@ -1,0 +1,483 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.PostgressSQL\\SearchLego.DataSeeder.PostgressSQL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Common\\SearchLego.DataSeeder.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Common\\SearchLego.DataSeeder.Common.csproj",
+        "projectName": "SearchLego.DataSeeder.Common",
+        "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Common\\SearchLego.DataSeeder.Common.csproj",
+        "packagesPath": "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shreyanshi.Mishra1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Entities\\SearchLego.DataSeeder.Entities.csproj": {
+                "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Entities\\SearchLego.DataSeeder.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "LiteX.Storage.Amazon": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "LiteX.Storage.Azure": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "LiteX.Storage.Google": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "LiteX.Storage.Kvpbase": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Entities\\SearchLego.DataSeeder.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Entities\\SearchLego.DataSeeder.Entities.csproj",
+        "projectName": "SearchLego.DataSeeder.Entities",
+        "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Entities\\SearchLego.DataSeeder.Entities.csproj",
+        "packagesPath": "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shreyanshi.Mishra1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Host\\SearchLego.DataSeeder.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Host\\SearchLego.DataSeeder.Host.csproj",
+        "projectName": "SearchLego.DataSeeder.Host",
+        "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Host\\SearchLego.DataSeeder.Host.csproj",
+        "packagesPath": "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shreyanshi.Mishra1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.MongoDB.Host\\SearchLego.DataSeeder.MongoDB.Host.csproj": {
+                "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.MongoDB.Host\\SearchLego.DataSeeder.MongoDB.Host.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.MongoDB.Host\\SearchLego.DataSeeder.MongoDB.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.MongoDB.Host\\SearchLego.DataSeeder.MongoDB.Host.csproj",
+        "projectName": "SearchLego.DataSeeder.MongoDB.Host",
+        "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.MongoDB.Host\\SearchLego.DataSeeder.MongoDB.Host.csproj",
+        "packagesPath": "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.MongoDB.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shreyanshi.Mishra1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Common\\SearchLego.DataSeeder.Common.csproj": {
+                "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Common\\SearchLego.DataSeeder.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.PostgressSQL\\SearchLego.DataSeeder.PostgressSQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.PostgressSQL\\SearchLego.DataSeeder.PostgressSQL.csproj",
+        "projectName": "SearchLego.DataSeeder.PostgressSQL",
+        "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.PostgressSQL\\SearchLego.DataSeeder.PostgressSQL.csproj",
+        "packagesPath": "C:\\Users\\Shreyanshi.Mishra1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.PostgressSQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shreyanshi.Mishra1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Host\\SearchLego.DataSeeder.Host.csproj": {
+                "projectPath": "C:\\Users\\Shreyanshi.Mishra1\\Desktop\\Migration seeder\\SearchLego\\SearchLego.DataSeeder.Host\\SearchLego.DataSeeder.Host.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
