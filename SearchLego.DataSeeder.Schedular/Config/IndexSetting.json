@@ -1,0 +1,90 @@
+{
+  "max_result_window": 5000000,
+  "analysis": {
+    "normalizer": {
+      "my_normalizer": {
+        "type": "custom",
+        "char_filter": [
+          "html_tags_remover"
+        ],
+        "filter": [
+          "lowercase",
+          "asciifolding",
+          "trim"
+        ]
+      },
+      "lower_normalizer": {
+        "type": "custom",
+        "filter": [
+          "lowercase",
+          "trim"
+        ]
+      }
+    },
+    "filter": {
+      "my_stop_filter": {
+        "type": "stop",
+        "ignore_case": true,
+        "stopwords": [ "a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if", "in", "into", "is", "it", "no", "not", "of", "on", "or", "such", "that", "the", "their", "then", "there", "these", "they", "this", "to", "was", "will", "with" ]
+      },
+      "eng_stemmer": {
+        "type": "stemmer",
+        "name": "english"
+      }
+    },
+    "char_filter": {
+      "html_tags_remover": {
+        "type": "pattern_replace",
+        "pattern": "\\<[^>]*>|[^a-zA-Z0-9\\p{L}\\s]{1}",
+        "replacement": ""
+      }
+    },
+    "tokenizer": {
+      "my_tokenizer": {
+        "type": "pattern",
+        "pattern": "[\\[\\] .,?;\")({}]"
+      }
+    },
+    "analyzer": {
+      "my_analyzer_pattern": {
+        "tokenizer": "my_tokenizer",
+        "type": "custom",
+        "char_filter": [
+          "html_strip"
+        ],
+        "filter": [
+          "lowercase",
+          "trim",
+          "my_stop_filter",
+          "apostrophe",
+          "eng_stemmer"
+        ]
+      },
+      "non_stemming_analyzer": {
+        "tokenizer": "my_tokenizer",
+        "type": "custom",
+        "char_filter": [
+          "html_strip"
+        ],
+        "filter": [
+          "lowercase",
+          "trim",
+          "my_stop_filter",
+          "apostrophe"
+        ]
+      },
+      "synonym_search": {
+        "tokenizer": "standard",
+        "filter": [
+          "lowercase"
+        ]
+      },
+      "my_remove_html_analyzer": {
+        "tokenizer": "keyword",
+        "char_filter": [
+          "html_tags_remover"
+        ]
+      }
+    }
+  }
+}

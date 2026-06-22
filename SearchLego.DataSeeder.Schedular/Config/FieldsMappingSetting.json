@@ -1,0 +1,86 @@
+{
+  "string_field": {
+    "type": "text",
+    "analyzer": "my_analyzer_pattern",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 256,
+        "normalizer": "lower_normalizer"
+      },
+      "nonstemmed": {
+        "type": "text",
+        "analyzer": "non_stemming_analyzer"
+      },
+      "sort": {
+        "type": "keyword",
+        "ignore_above": 3000,
+        "normalizer": "my_normalizer"
+      }
+    }
+  },
+  "doc_summary": {
+    "type": "text",
+    "analyzer": "my_analyzer_pattern",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 256,
+        "normalizer": "lower_normalizer"
+      },
+      "nonstemmed": {
+        "type": "text",
+        "analyzer": "non_stemming_analyzer"
+      },
+      "sort": {
+        "type": "keyword",
+        "ignore_above": 3000,
+        "normalizer": "my_normalizer"
+      }
+    }
+  },
+  "content_attachment": {
+    "type": "text",
+    "analyzer": "my_analyzer_pattern",
+    "fields": {
+      "keyword": {
+        "type": "keyword",
+        "ignore_above": 256,
+        "normalizer": "lower_normalizer"
+      },
+      "nonstemmed": {
+        "type": "text",
+        "analyzer": "non_stemming_analyzer"
+      }
+    }
+  },
+  "date_field": {
+    "type": "date"
+  },
+
+  "long_field": {
+    "type": "text",
+    "fields": {
+      "keyword": {
+        "type": "long"
+      },
+      "nonstemmed": {
+        "type": "long"
+      },
+      "sort": {
+        "type": "long"
+      }
+    }
+  },
+  "boolean_field": {
+    "type": "boolean"
+  },
+  "auto_suggestion": {
+    "type": "completion",
+    "analyzer": "standard",
+    "preserve_separators": true,
+    "preserve_position_increments": true,
+    "max_input_length": 50
+  }
+
+}

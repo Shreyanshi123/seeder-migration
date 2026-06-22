@@ -1,0 +1,436 @@
+{
+  "_id": "0",
+  "clientId": "0",
+  "analyzer": "my_analyzer_pattern",
+  "blank": "NA",
+  "dateformat": "MMM DD, YYYY",
+  "enableComponentLoader": "true",
+  "data_dictionary_index": "",
+  "siteUrl": "",
+  "applySimpleQuery": "true",
+  "restrictOperators": "ALL",
+  "defaultOperator": "OR",
+  "showResetButton": true,
+  "noResultHtml": "",
+  "fileSize": "22000",
+  "tooltipMessages": {
+    "fuzzy": {
+      "titleEnable": "Enable Fuzzy Search",
+      "titleDisable": "Disable Fuzzy Search",
+      "description": "Enable for approximate match and finds matches even where the keywords are misspelled or only hint at a concept"
+    },
+    "proximity": {
+      "titleEnable": "Enable Proximity Search",
+      "titleDisable": "Disable Proximity Search",
+      "description": "Proximity searching allows you to search based on how closely two or more search terms appear in the search results"
+    },
+    "searchButton": {
+      "enabled": true,
+      "header": "Searching",
+      "message": "Testing Provides advanced search capabilities across news and notes available. You can use Boolean operators across multiple keywords, view relevant details of each search result and use �Refiners� to narrow down results"
+    }
+  },
+  "errorMessages": [
+    {
+      "status": 400,
+      "type": "badRequest",
+      "customMessage": "Please check the search term"
+    },
+    {
+      "status": 404,
+      "type": "notFound",
+      "customMessage": "Resource not found"
+    },
+    {
+      "status": 403,
+      "type": "forbidden",
+      "customMessage": "Access is denied"
+    },
+    {
+      "status": 409,
+      "type": "conflict",
+      "customMessage": "Conflict"
+    },
+    {
+      "status": 412,
+      "type": "preConditionFailed",
+      "customMessage": "Pre-condition failed"
+    },
+    {
+      "status": 500,
+      "type": "interServerError",
+      "customMessage": "Internal Server Error"
+    },
+    {
+      "status": 503,
+      "type": "serviceUnavailable",
+      "customMessage": "Service is Unavailable"
+    }
+  ],
+
+  "projects": [
+    {
+      "searchTermRequired": {
+        "enabled": false,
+        "errorPage": {
+          "heading": "No Keywords Searched",
+          "html": null,
+          "message1": "Please search something",
+          "message2": ""
+        },
+        "warning": "Please enter desired keyword or string"
+      },
+      "autoCorrect": {
+        "didYouMeanLbl": "Did you Mean: ",
+        "enabled": true,
+        "searchInsteadForLbl": "Search Instead For: ",
+        "showingResultForLbl": "Showing Results For: ",
+        "type": "autoCorrect"
+      },
+      "enableFilterinImproveSearch": false,
+      "enableSinglewordSuggestion": false,
+      "pageSizeSetting": {
+        "enabled": true,
+        "label": "Show",
+        "defaultPageSize": 10,
+        "pageSizes": [
+          10,
+          20,
+          50,
+          100
+        ]
+      },
+      "cognitiveBaseURL": "https://insightsfirst-demo.evalueserve.com",
+      "enableFuzzySearch": "false",
+      "displayFuzzySearch": "true",
+      "enableProximitySearch": "false",
+      "displayProximitySearch": "true",
+      "enable_synonym_search": "false",
+      "filterGroupPermission": "false",
+      "filterGroupUrl": "https://insightsfirst-demo.evalueserve.com/InsightFirstFilterAPI/api/Filter/GetFilterData",
+      "maintainPageState": "true",
+      "enableAnalytics": "true",
+      "enableCognitive": "false",
+      "enableImproveSearch": false,
+      "enableDisplayCounts": "true",
+      "enableFilterBox": "true",
+      "recentSuggestionCount": 10.0,
+      "enableIntegratedSearch": false,
+      "trackTotalHits": false,
+      "enableTabPermission": "true",
+      "entitiesArray": [
+        {
+          "tag": "Organization",
+          "enabled": true,
+          "icon": "nerOrganisationIcon",
+          "className": "slb-entity slb-org-icon",
+          "columnName": "organization"
+        },
+        {
+          "tag": "Location",
+          "enabled": true,
+          "icon": "nerLocationIcon",
+          "className": "slb-entity slb-loc-icon",
+          "columnName": "location"
+        }
+      ],
+      "tabPermissionUrl": "https://insightsfirst-demo.evalueserve.com/InsightFirstMenuapi/api/Menu/GetMenuItems",
+      "proximitySearchRange": [
+        {
+          "key": "High",
+          "value": 2,
+          "selected": true
+        },
+        {
+          "key": "Medium",
+          "value": 5
+        },
+        {
+          "key": "Low",
+          "value": 10
+        }
+      ],
+      "resultView": {
+        "enableToggleView": true
+      },
+      "hideTabSelection": false,
+      "hideTabItems": false,
+      "isThreeColumn": true,
+      "refinerIsOpenByDefault": true,
+      "projectId": "-1",
+      "refineSearchWordCount": 10,
+      "calendarSettings": {
+        "customizedLabels": [
+          {
+            "Dates": {
+              "endDate": "",
+              "startDate": "7"
+            },
+            "Identifier": "LastWeek",
+            "Label": "Last Week",
+            "Type": "days"
+          },
+          {
+            "Dates": {
+              "endDate": "",
+              "startDate": "1"
+            },
+            "Identifier": "Last1Month",
+            "Label": "Last Month",
+            "Type": "month"
+          },
+          {
+            "Dates": {
+              "endDate": "",
+              "startDate": "2"
+            },
+            "Identifier": "Last2Months",
+            "Label": "Last 2 Months",
+            "Type": "month"
+          },
+          {
+            "Dates": {
+              "endDate": "1",
+              "startDate": "1"
+            },
+            "Identifier": "LastQuarter",
+            "Label": "Last Quarter",
+            "Type": "quarter"
+          },
+          {
+            "Dates": {
+              "endDate": "",
+              "startDate": "6"
+            },
+            "Identifier": "Last6Months",
+            "Label": "Last 6 Months",
+            "Type": "month"
+          },
+          {
+            "Dates": {
+              "endDate": "",
+              "startDate": "1"
+            },
+            "Identifier": "Last1Year",
+            "Label": "Last 1 Year",
+            "Type": "year"
+          },
+          {
+            "Dates": {
+              "endDate": "",
+              "startDate": "2"
+            },
+            "Identifier": "Last2Years",
+            "Label": "Last 2 Years",
+            "Type": "year"
+          },
+          {
+            "Dates": {
+              "endDate": "",
+              "startDate": "3"
+            },
+            "Identifier": "Last3Years",
+            "Label": "Last 3 Years",
+            "Type": "year"
+          }
+        ],
+        "enableNewCalendar": true,
+        "hideCustomRange": false
+      },
+      "tabs": [
+        {
+          "Tab": "News",
+          "isActive": true,
+          "enableIntegratedSearch": false,
+          "Sequence": "1",
+          "PageId": "-1",
+          "searchInFacetSettings": {
+            "label": "SEARCH IN",
+            "multiselect": true,
+            "isActive": false
+          },
+          "enablePdfPreview": false,
+          "fileExtension": "xlsx, xls",
+          "multiPage": true,
+          "multiPageSetting": {
+            "label": "Type",
+            "header": "Select Category",
+            "showHeader": true,
+            "showAllSelection": true,
+            "defaultPageRefId": "all",
+            "virtualPages": [
+              {
+                "name": "page1",
+                "displayName": "Category 1 abc",
+                "pageReferenceId": "320bf5f9-e07c-40e7-8cd4-e6843af14252",
+                "sequenceNo": 2,
+                "config": {
+                  "indexName": "news",
+                  "displayTemplateName": "newslisting",
+                  "templateParsingSetting": {
+                    "name": "competitorListingEricsson"
+                  },
+                  "resultFields": [
+
+                  ],
+                  "fieldsToPerformSearch": [
+
+                  ],
+                  "sortFields": [
+                    {
+                      "name": "Relevance",
+                      "value": "",
+                      "direction": "",
+                      "selected": "true"
+                    }
+                  ],
+                  "facets": [
+
+                  ],
+                  "facetsGroup": [
+                    {
+                      "groupName": "Refiners",
+                      "fields": [
+
+
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "config": {
+            "indexName": "news",
+            "displayTemplateName": "newslisting",
+            "templateParsingSetting": {
+              "name": "competitorListingEricsson"
+            },
+            "resultFields": [
+              "id",
+              "Title",
+              "Summary",
+              "ImagePath",
+              "Source",
+              "Status",
+              "SourceDate",
+              "PublicationDate",
+              "Tag",
+              "GEOGRAPHY",
+              "TREND_CATEGORY",
+              "SUB_THEME",
+              "PRODUCT_CATEGORY"
+            ],
+            "fieldsToPerformSearch": [
+              "Title",
+              "Summary",
+              "Source",
+              "Status",
+              "Tag",
+              "GEOGRAPHY",
+              "TREND_CATEGORY",
+              "SUB_THEME",
+              "PRODUCT_CATEGORY"
+            ],
+            "sortFields": [
+              {
+                "name": "Relevance",
+                "value": "",
+                "direction": "",
+                "selected": "true"
+              },
+              {
+                "name": "Title",
+                "value": "Title",
+                "direction": "asc",
+                "selected": "true"
+              },
+              {
+                "name": "Geography",
+                "value": "GEOGRAPHY",
+                "direction": "asc",
+                "selected": "true"
+              },
+              {
+                "name": "Sub Theme",
+                "value": "SUB_THEME",
+                "direction": "asc",
+                "selected": "true"
+              }
+            ],
+            "facets": [
+              {
+                "field": "Status",
+                "type": "value",
+                "issticky": true
+              },
+              {
+                "field": "GEOGRAPHY",
+                "type": "value",
+                "issticky": true
+              },
+              {
+                "field": "SUB_THEME",
+                "type": "value",
+                "issticky": true
+              },
+              {
+                "field": "TREND_CATEGORY",
+                "type": "value",
+                "issticky": true
+              },
+              {
+                "field": "PRODUCT_CATEGORY",
+                "type": "value",
+                "issticky": true
+              },
+              {
+                "field": "UpdatedDate",
+                "type": "date",
+                "issticky": false
+              }
+            ],
+            "facetsGroup": [
+              {
+                "hideGroupName": true,
+                "groupName": "Refiners",
+                "fields": [
+                  {
+                    "name": "Status",
+                    "label": "Status",
+                    "type": "multi"
+                  },
+                  {
+                    "name": "GEOGRAPHY",
+                    "label": "Geography",
+                    "type": "multi"
+                  },
+                  {
+                    "name": "SUB_THEME",
+                    "label": "Sub Theme",
+                    "type": "multi"
+                  },
+                  {
+                    "name": "TREND_CATEGORY",
+                    "label": "Trend Category",
+                    "type": "multi"
+                  },
+                  {
+                    "name": "PRODUCT_CATEGORY",
+                    "label": "Product Category",
+                    "type": "multi"
+                  },
+                  {
+                    "name": "UpdatedDate",
+                    "label": "Updated Date",
+                    "type": "single"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

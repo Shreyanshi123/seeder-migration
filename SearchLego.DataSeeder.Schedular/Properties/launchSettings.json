@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SearchLego.DataSeeder.Schedular": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Dev": "aa"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Azure": {
+    "Enabled": false,
+    "AzureBlobStorageConfig": {
+      "AzureBlobStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=cbsearchlegostgeus;AccountKey=d/OKhaSkLcdhtUMaI3GEG590pX5hKRbNWwNdMdBKZBEwRU/Vkvwr7dS2ePAqGjSCA+NlgMRZcNQ2+AStkROZTA==;EndpointSuffix=core.windows.net",
+      "AzureBlobStorageContainerName": "es-rs",
+      "AzureBlobStorageEndPoint": "core.windows.net",
+      "EnableLogging": false
+    }
+  },
+  "Amazon": {
+    "Enabled": false,
+    "AmazonS3Config": {
+      "AmazonAwsSecretAccessKey": "",
+      "AmazonAwsAccessKeyId": "AKIAQLPA2CXSMPWNXJPT",
+      "AmazonBucketName": "damicrosuite",
+      "AmazonRegion": "us-east-1",
+      "EnableLogging": false
+    }
+  },
+  "Google": {
+    "Enabled": false,
+    "GoogleCloudStorageConfig": {
+      "GoogleProjectId": "",
+      "GoogleJsonAuthPath": "",
+      "GoogleBucketName": "",
+      "EnableLogging": false
+    }
+  },
+  "Kvpbase": {
+    "Enabled": false,
+    "KvpbaseStorageConfig": {
+      "KvpbaseApiKey": "",
+      "KvpbaseEndpoint": "",
+      "KvpbaseContainer": "",
+      "KvpbaseUserGuid": "",
+      "EnableLogging": false
+    }
+  }
+
+}
