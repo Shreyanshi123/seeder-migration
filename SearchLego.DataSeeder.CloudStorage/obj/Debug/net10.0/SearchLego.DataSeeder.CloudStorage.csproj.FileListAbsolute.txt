@@ -1,0 +1,13 @@
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\bin\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.deps.json
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\bin\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.dll
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\bin\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.pdb
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.csproj.AssemblyReference.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.AssemblyInfoInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.AssemblyInfo.cs
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.csproj.CoreCompileInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.sourcelink.json
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.dll
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\refint\SearchLego.DataSeeder.CloudStorage.dll
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\SearchLego.DataSeeder.CloudStorage.pdb
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.CloudStorage\obj\Debug\net10.0\ref\SearchLego.DataSeeder.CloudStorage.dll

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiteX.Storage.Amazon" Version="7.1.0" />
+    <PackageReference Include="LiteX.Storage.Azure" Version="7.1.0" />
+    <PackageReference Include="LiteX.Storage.Google" Version="7.1.0" />
+    <PackageReference Include="LiteX.Storage.Kvpbase" Version="7.1.0" />
+    <PackageReference Include="LiteX.Storage.Local" Version="7.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="StorageProvider\" />
+  </ItemGroup>
+
+</Project>
