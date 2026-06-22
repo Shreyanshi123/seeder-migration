@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IAggregate.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SearchLego.DataSeeder.Azure\SearchLego.DataSeeder.AzureVault.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.Common\SearchLego.DataSeeder.Common.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.Host\SearchLego.DataSeeder.Host.csproj" />
+  </ItemGroup>
+
+</Project>

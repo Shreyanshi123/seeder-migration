@@ -1,0 +1,6 @@
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.MongoDB\obj\Debug\net10.0\SearchLego.DataSeeder.MongoDB.csproj.AssemblyReference.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.MongoDB\obj\Debug\net10.0\SearchLego.DataSeeder.MongoDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.MongoDB\obj\Debug\net10.0\SearchLego.DataSeeder.MongoDB.AssemblyInfoInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.MongoDB\obj\Debug\net10.0\SearchLego.DataSeeder.MongoDB.AssemblyInfo.cs
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.MongoDB\obj\Debug\net10.0\SearchLego.DataSeeder.MongoDB.csproj.CoreCompileInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.MongoDB\obj\Debug\net10.0\SearchLego.DataSeeder.MongoDB.sourcelink.json
