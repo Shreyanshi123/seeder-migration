@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.6.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SearchLego.DataSeeder.CloudStorage\SearchLego.DataSeeder.CloudStorage.csproj" />
+    <ProjectReference Include="..\SearchLego.DataSeeder.Common\SearchLego.DataSeeder.Common.csproj" />
+  </ItemGroup>
+
+</Project>
