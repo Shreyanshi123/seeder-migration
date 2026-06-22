@@ -1,0 +1,6 @@
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Connector\obj\Debug\net10.0\SearchLego.DataSeeder.Connector.csproj.AssemblyReference.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Connector\obj\Debug\net10.0\SearchLego.DataSeeder.Connector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Connector\obj\Debug\net10.0\SearchLego.DataSeeder.Connector.AssemblyInfoInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Connector\obj\Debug\net10.0\SearchLego.DataSeeder.Connector.AssemblyInfo.cs
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Connector\obj\Debug\net10.0\SearchLego.DataSeeder.Connector.csproj.CoreCompileInputs.cache
+C:\Users\Shreyanshi.Mishra1\Desktop\Migration seeder\SearchLego\SearchLego.DataSeeder.Connector\obj\Debug\net10.0\SearchLego.DataSeeder.Connector.sourcelink.json
